@@ -344,7 +344,13 @@ You can start the node with
 ```
 v6 node start -n node_name --attach
 ```
-
+---
+## Users id and pw
+Before running the scripts for submitting tasks, you need to define the user and pw
+```
+export V6_USER="username"
+export V6_PASS="password"
+```
 ---
 ## Available Control Scripts
 
